@@ -14,7 +14,7 @@ metadata:
   links:
     - url: https://docker.branch.io/
       title: Branch docker registry
-      icon: dashboard
+      icon: docker
 spec:
   type: tool
   lifecycle: production
