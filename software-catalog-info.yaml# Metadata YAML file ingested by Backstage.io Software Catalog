@@ -1,0 +1,20 @@
+# Metadata YAML file ingested by Backstage.io Software Catalog
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docker-registry
+  description: Branch docker registry
+  tags:
+    - p0
+    - nginx
+    - lua
+  links:
+    - url: https://docker.branch.io/
+      title: Branch docker registry
+      icon: dashboard
+spec:
+  type: tool
+  lifecycle: production
+  owner: infra-team
+  system: engineering-toolbelt
