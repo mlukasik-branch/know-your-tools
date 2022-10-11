@@ -5,6 +5,8 @@ kind: Component
 metadata:
   name: docker-registry
   description: Branch docker registry
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   tags:
     - p0
     - nginx
