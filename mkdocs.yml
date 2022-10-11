@@ -1,0 +1,12 @@
+# Config YAML file ingested by Backstage.io Software Catalog TechDocs
+
+site_name: 'know-your-tools'
+site_description: 'Main documentation for our engineering toolbelt'
+repo_url: https://github.com/mlukasik-branch/know-your-tools
+edit_uri: edit/master/docs
+
+plugins:
+  - techdocs-core
+  
+nav:
+  - Home: index.md
