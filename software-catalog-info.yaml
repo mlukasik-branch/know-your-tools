@@ -8,9 +8,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
   tags:
-    - p0
-    - nginx
-    - lua
+    - docker
   links:
     - url: https://docker.branch.io/
       title: Branch docker registry
@@ -19,4 +17,4 @@ spec:
   type: tool
   lifecycle: production
   owner: infra-team
-  system: engineering-toolbelt
+  system: engineer-toolbelt
