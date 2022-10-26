@@ -14,7 +14,7 @@ metadata:
       title: Branch docker registry
       icon: docker
 spec:
-  type: tool
+  type: service
   lifecycle: production
   owner: infra-team
   system: engineer-toolbelt
