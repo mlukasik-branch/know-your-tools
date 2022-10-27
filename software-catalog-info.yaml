@@ -7,7 +7,7 @@ metadata:
   description: Used with Apache Kafka for service synchronization and as a naming registry
   annotations:
     github.com/project-slug: BranchMetrics/data-platform
-    backstage.io/source-location: https://github.com/BranchMetrics/data-platform/tree/master/zookeeper
+    backstage.io/source-location: url:https://github.com/BranchMetrics/data-platform/tree/master/zookeeper
   tags:
     - p0
     - lua
