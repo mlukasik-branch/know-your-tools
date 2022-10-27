@@ -6,7 +6,8 @@ metadata:
   name: zookeeper
   description: Used with Apache Kafka for service synchronization and as a naming registry
   annotations:
-    github.com/project-slug: BranchMetrics/data-platform/tree/master/zookeeper
+    github.com/project-slug: BranchMetrics/data-platform
+    backstage.io/source-location: zookeeper
   tags:
     - p0
     - lua
