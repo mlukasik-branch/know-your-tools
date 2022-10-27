@@ -1,23 +1,18 @@
-# Metadata YAML file ingested by Backstage.io Software Catalog
-
+# Metadata YAML file ingested by Branch Backstage.io Software Catalog (https://backstage.stage.branch.io/)
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: docker-registry
-  description: Branch docker registry
+  name: zookeeper
+  description: Used with Apache Kafka for service synchronization and as a naming registry
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: BranchMetrics/data-platform/tree/master/zookeeper
   tags:
-    - docker
-  links:
-    - url: https://docker.branch.io/
-      title: Branch docker registry
-      icon: docker
+    - p0
+    - lua
+    - nginx
+    - cygni
 spec:
   type: service
   lifecycle: production
   owner: infra-team
-  system: engineer-toolbelt
-  dependsOn:
-    - component:dashboard-gateway
-    - component:subdomain-service
