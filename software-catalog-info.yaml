@@ -3,15 +3,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: zookeeper
+  name: know-your-tools
   description: Used with Apache Kafka for service synchronization and as a naming registry
   annotations:
-    backstage.io/source-location: url:https://github.com/BranchMetrics/data-platform/tree/master/zookeeper/
+    github.com/project-slug: mlukasik-branch/know-your-tools
   tags:
     - p0
-    - lua
-    - nginx
-    - cygni
+    - test
 spec:
   type: service
   lifecycle: production
